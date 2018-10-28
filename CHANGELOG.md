@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.1
+#### Changed
+- Icon for feature type parameter for importing OSM
+- Inspect trip: removed redundant outputs of Curves and Streets
+
 ## v0.1.0
 #### Added
 - Import any feature type from OSM
@@ -10,3 +15,5 @@
 
 #### Fixed
 - Using double precision to read lat/long data from OSM files, fixed jagged lines bug
+
+
