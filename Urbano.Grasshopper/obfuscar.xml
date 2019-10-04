@@ -1,18 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Obfuscator>
-  <Var name="InPath" value="." />
-  <Var name="OutPath" value=".\temp" />
-  <!--<Var name="KeepPublicApi" value="false" />
-  <Var name="HidePrivateApi" value="true" />
-  <Var name="RenameProperties" value="true" />
-  <Var name="RenameEvents" value="true" />
-  <Var name="RenameFields" value="true" />
-  <Var name="HideStrings" value="false" />
-  <Var name="ReuseNames" value="false" />-->
-  <Var name="RegenerateDebugInfo" value="true"/>
-  <Module file="$(InPath)\Urbano.dll">
-    <SkipProperty type="Urbano.Properties.Settings" name="Category" />
-  </Module>
-  <AssemblySearchPath path="C:\Users\Nikhil Saraf\Desktop\UrbanMobility\packages\Grasshopper.6.9.18271.20591\lib\net45" />
-  <AssemblySearchPath path="C:\Users\Nikhil Saraf\Desktop\UrbanMobility\packages\RhinoCommon.6.9.18271.20591\lib\net45" />
+	<Var name="InPath" value="." />
+	<Var name="OutPath" value=".\temp" />
+	<!--
+	<Var name="KeepPublicApi" value="false" />
+	<Var name="HidePrivateApi" value="true" />
+	<Var name="RenameProperties" value="true" />
+	<Var name="RenameEvents" value="true" />
+	<Var name="RenameFields" value="true" />
+	<Var name="HideStrings" value="false" />
+	<Var name="ReuseNames" value="false" />
+	-->
+	<Var name="RegenerateDebugInfo" value="true" />
+	<Module file="$(InPath)\Urbano.dll">
+		<SkipProperty type="Urbano.Properties.Settings" name="Category" />
+	</Module>
+	<AssemblySearchPath path="C:\Users\Nikhil Saraf\Desktop\UrbanMobility\packages\Grasshopper.6.9.18271.20591\lib\net45" />
+	<AssemblySearchPath path="C:\Users\Nikhil Saraf\Desktop\UrbanMobility\packages\RhinoCommon.6.9.18271.20591\lib\net45" />
 </Obfuscator>
